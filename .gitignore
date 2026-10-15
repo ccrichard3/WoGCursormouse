@@ -1,0 +1,7 @@
+# This repository ships prebuilt binaries only — see the Releases page.
+# The source tree is deliberately not published, so everything at the root is
+# ignored except the files listed below.
+/*
+!/.gitignore
+!/README.md
+!/docs
