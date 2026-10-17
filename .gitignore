@@ -5,3 +5,11 @@
 !/.gitignore
 !/README.md
 !/docs
+!/scripts
+!/traffic
+!/.github
+
+# traffic chart (committed on purpose)
+!/scripts/
+!/traffic/
+!/.github/
