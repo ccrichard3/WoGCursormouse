@@ -1,4 +1,4 @@
-# World of Goo 光标 / World of Goo Cursor
+# WoGCursormouse（World of Goo 光标）
 
 把《粘粘世界》(World of Goo) 里那只黏黏球变成你的鼠标指针 —— 跟着指针呼吸、拖尾、收缩，真正的系统光标被隐藏。
 
@@ -22,17 +22,17 @@ Windows：快速拖动时，拖出一条长长的尾巴
 
 ### macOS
 
-1. 双击 dmg，把 `WorldOfGooCursor.app` 拖进「应用程序」文件夹
+1. 双击 dmg，把 `WoGCursormouse.app` 拖进「应用程序」文件夹
 2. 开始享受吧
 
 > **安装失败？**
 > 这个应用是本地构建，无 Apple 签名，所以会拦截。
-> - 终端执行 `xattr -d com.apple.quarantine /Applications/WorldOfGooCursor.app`
+> - 终端执行 `xattr -d com.apple.quarantine /Applications/WoGCursormouse.app`
 
 ### Windows
 
 1. 解压后把文件夹拖到任意位置，比如 `d:\`
-2. 双击 `World of Goo Cursor.exe` 即可运行
+2. 双击 `WoGCursormouse.exe` 即可运行
 
 ## 设置选项
 
@@ -40,13 +40,18 @@ Windows：快速拖动时，拖出一条长长的尾巴
 - **应用黑名单**：不想使用黏黏球的应用。默认已加入 **Bob**（截图工具）
 - **暂停效果**：暂时停止
 
+## 操作
+
+- **Windows**：左键单击托盘图标打开设置，右键单击直接退出。
+- **macOS**：点菜单栏图标，里面有设置、暂停、隐藏光标、开机自启动和退出。
+
 ## 已知限制
 
 - **macOS 上，应用自己画的光标无法被替换。** 终端的选字工字光标、某些应用的十字光标会照常显示。
   这是 macOS 的行为：应用只在第一次解析光标时读一次表，之后缓存到进程结束。属于系统限制，无法绕过 ——
   解决办法是把那个应用加进上面的黑名单。
 - **Windows 上，如果进程被强制结束，光标可能保持隐藏。**
-  重新启动一次程序即可自动恢复
+  重新启动一次程序即可自动恢复。
 - macOS 版仅支持 Apple 芯片。
 
 ## 致谢 / Credits
@@ -65,10 +70,11 @@ trailing blob follows your pointer while the real system cursor is hidden.
 Prebuilt binaries for **macOS (Apple silicon)** and **Windows (.NET Framework 4.8)** are on the
 [Releases](https://github.com/ccrichard3/WoGCursormouse/releases) page. This repository ships binaries only — no source.
 
-- **macOS**: open the `.dmg`, drag `WorldOfGooCursor.app` to Applications, then launch it. Menu-bar app.
+- **macOS**: open the `.dmg`, drag `WoGCursormouse.app` to Applications, then launch it. Menu-bar app.
   It is ad-hoc signed and not notarised, so right-click → Open the first time (or
   `xattr -d com.apple.quarantine`).
-- **Windows**: unzip and keep all four files together, then run `World of Goo Cursor.exe`.
+- **Windows**: unzip and keep all four files together, then run `WoGCursormouse.exe`.
+  Left-click the tray icon for settings, right-click to quit.
 
 The effect and the original Windows build are by **Mygod** (<https://github.com/Mygod/WoGCursor>);
 this repository is an independent macOS port plus a modernisation of the Windows build.
