@@ -13,3 +13,5 @@
 !/scripts/
 !/traffic/
 !/.github/
+__pycache__/
+*.pyc
