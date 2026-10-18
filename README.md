@@ -98,10 +98,10 @@ The effect and the original Windows build are by **Mygod** (<https://github.com/
 this repository is an independent macOS port plus a modernisation of the Windows build.
 *World of Goo* is a 2D Boy property.
 
-## 访问量
+## 使用趋势
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="traffic/views-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="traffic/views.svg" />
-  <img alt="访问量" src="traffic/views.svg" />
+  <img alt="使用趋势" src="traffic/views.svg" />
 </picture>
