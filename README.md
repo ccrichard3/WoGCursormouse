@@ -86,7 +86,7 @@ The GEN-U-INE cursor of *World of Goo*, out of the game and onto your desktop: a
 trailing blob follows your pointer while the real system cursor is hidden.
 
 Prebuilt binaries for **macOS (Apple silicon)** and **Windows (.NET Framework 4.8)** are on the
-[Releases](https://github.com/ccrichard3/WoGCursormouse/releases) page. This repository ships binaries only — no source.
+[Releases](https://github.com/ccrichard3/WoGCursormouse/releases) page. This repository ships prebuilt binaries; the application source is not published.
 
 - **macOS**: open the `.dmg`, drag `WoGCursormouse.app` to Applications, then launch it. Menu-bar app.
   It is ad-hoc signed and not notarised, so right-click → Open the first time (or
@@ -97,3 +97,11 @@ Prebuilt binaries for **macOS (Apple silicon)** and **Windows (.NET Framework 4.
 The effect and the original Windows build are by **Mygod** (<https://github.com/Mygod/WoGCursor>);
 this repository is an independent macOS port plus a modernisation of the Windows build.
 *World of Goo* is a 2D Boy property.
+
+## 访问量
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="traffic/views-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="traffic/views.svg" />
+  <img alt="访问量" src="traffic/views.svg" />
+</picture>
